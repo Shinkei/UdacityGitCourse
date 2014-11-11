@@ -5,3 +5,20 @@ git create an empty repository, i need to do it because it's a mandatory step to
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area is like a temporal place to order the commit before you can do it, it helps to remove posible error
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+using the command git diff --stage can see if the changes in the stage area are the corrects to commit and check if they are included in my meaning of logical 
+chang
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When there are significan changes but you need the master, so you can not add the changes to master, you create a new branch
+
+How do the diagrams help you visualize the branch structure?
+the help to visualize easier the structure of the repository, and heck if there is a lost commit
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+the result is a branch with the changes of both branches, we represent this way to have a better idea of where are the branches
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+the pros are that it resolve easy conflicts automaticaly, the cons are that it could do the merge wrong and put something I don't want
